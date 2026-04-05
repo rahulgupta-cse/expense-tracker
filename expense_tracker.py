@@ -40,7 +40,7 @@ while True:
             writer.writerow([date, name, category, amount])
 
         print("Expense added successfully!")
-
+    #To see the expenses details 
     elif choice == "2":
         print("\n" + "-"*70)
         print("                        PRODUCTS DETAILS")
