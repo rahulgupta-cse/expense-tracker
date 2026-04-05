@@ -24,6 +24,7 @@ while True:
 
     choice = input("\nEnter choice: ")
 
+    #For adding of expenses in file 
     if choice == "1":
         name = input("Enter expense name: ")
         category = input("Enter category (Food/Travel/Sports/etc): ")
