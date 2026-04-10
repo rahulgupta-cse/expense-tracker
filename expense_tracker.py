@@ -1,3 +1,4 @@
+ #Imports the CSV module to read from and write to CSV files
 import csv
 from datetime import datetime
 
