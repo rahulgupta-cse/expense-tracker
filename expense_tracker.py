@@ -4,7 +4,7 @@ from datetime import datetime # Imports the datetime class to work with dates an
 
 expenses = []
 
-file_name = "expenses.csv"
+file_name = "expenses.csv" #To save file name as expenses.csv
 
 # Create file with header if not exists
 try:
