@@ -51,8 +51,8 @@ while True:
 
         total = 0
 
-        with open(file_name, "r") as file:
-            reader = csv.reader(file)
+        with open(file_name, "r") as file: #To open the file name as reading mode only
+            reader = csv.reader(file) #To read the csv file 
             next(reader)
 
             for row in reader:
